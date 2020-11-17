@@ -1,6 +1,6 @@
 require 'rack'
 
-require ./my_server.rb
+require_relative ./my_server.rb
 
 # Something that responds to call, that's what Rack demands
 class MyServer
