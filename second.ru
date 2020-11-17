@@ -1,5 +1,7 @@
 require 'rack'
 
+./my_server.rb
+
 # Something that responds to call, that's what Rack demands
 class MyServer
   def call(env)
