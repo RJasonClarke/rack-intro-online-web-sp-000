@@ -1,4 +1,4 @@
-require 'rack'
+
 
 ./my_server.rb
 
@@ -13,4 +13,3 @@ class MyServer
   end
 end
 
-run MyServer.new
