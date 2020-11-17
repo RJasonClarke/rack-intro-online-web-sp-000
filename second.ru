@@ -1,6 +1,6 @@
 require 'rack'
 
-# ./my_server.rb
+require_relative ./my_server.rb
 
 class MyServer
   def call(env)
